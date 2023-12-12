@@ -13,6 +13,9 @@ body{
     color: white;
     font-size: 35px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .user-input{
     font-size: 18px;
@@ -37,4 +40,7 @@ body{
     justify-content: center;
     width: 50%;
     margin: auto;
+}
+.below-title{
+   margin-top: 50px;
 }
