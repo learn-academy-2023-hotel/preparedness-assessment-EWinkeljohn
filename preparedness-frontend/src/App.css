@@ -24,15 +24,17 @@ body{
     padding-top: 6px;
     padding-bottom: 6px
 }
-.click-me{
+.button{
     background-color: #0dcaf0 !important;
-    margin: auto;
     color: white;
     padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+    margin-top: 20px;
 }
-.reset{
-    background-color: #0dcaf0 !important;
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 50%;
     margin: auto;
-    color: white;
-    padding: 10px;
 }

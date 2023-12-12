@@ -27,8 +27,8 @@ const App = () => {
           <Input type="text" value={userInput} onChange={handleChange} />
         </div>
         <div className="buttons">
-        <Button className="click-me" onClick={toggle}>Click Me</Button>
-        <Button className="reset" onClick={reset}>Reset</Button>
+        <Button className="button" onClick={toggle}>Click Me</Button>
+        <Button className="button" onClick={reset}>Reset</Button>
         <ModalComponent isOpen={modal} name={userInput} toggle={toggle}/>
         </div>
       </div>
