@@ -20,6 +20,7 @@ const App = () => {
     <div className="entire-content">
       <h1 className="title">Preparedness Assessment</h1>
       <div className="form">
+        <div className="below-title">
         <div className="input">
           <Label for="name">Enter your name</Label>
         </div>
@@ -29,6 +30,7 @@ const App = () => {
         <div className="buttons">
         <Button className="button" onClick={toggle}>Click Me</Button>
         <Button className="button" onClick={reset}>Reset</Button>
+        </div>
         <ModalComponent isOpen={modal} name={userInput} toggle={toggle}/>
         </div>
       </div>
