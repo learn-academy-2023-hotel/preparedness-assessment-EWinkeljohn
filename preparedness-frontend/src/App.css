@@ -1,3 +1,40 @@
 body{
-    background-image: url(https://github.com/learn-academy-2023-hotel/preparedness-assessment-EWinkeljohn/blob/main/preparedness-frontend/src/assets/background-image.jpeg);
+    background-image: url(https://github.com/learn-academy-2023-hotel/preparedness-assessment-EWinkeljohn/blob/main/preparedness-frontend/src/assets/background-image.jpeg?raw=true);
+}
+.entire-content{
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.input{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.user-input{
+    font-size: 18px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+.button{
+    background-color: #0dcaf0 !important;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+    margin-top: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
 }
